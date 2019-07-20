@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background:linear-gradient(135deg, #7117ea 0%,#ea6060 100%);
+}
+
+.sch-bar {
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: fixed;
+}
+
+input {
+    border: .5px solid #ddd;
+    border-radius: 25px;
+    padding: 10px 15px;
+    width: 220px;
+    position: relative;
+}
+
+::placeholder {
+    font-size: 12px;
+    opacity: .43;
+}
+
+i {
+    color: #fff;
+    background: linear-gradient(135deg, #7117ea 0%,#ea6060 100%);
+    padding: 8px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
